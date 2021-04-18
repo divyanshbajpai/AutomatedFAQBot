@@ -19,8 +19,8 @@ import "./header.css"
 class Header extends Component {
     constructor(props) {
         super(props)
-        this.appName = props.data.appname || "NeuralQA"
-        this.appDescription = props.data.appdescription || " Question Answering on Large Datasets."
+        this.appName = props.data.appname || "TobiQA"
+        this.appDescription = props.data.appdescription || "Intelligent Question Answering"
     }
     render() {
         return (
@@ -30,7 +30,7 @@ class Header extends Component {
                         <div className="flex    h100">
                             <div className="h100   flex flexjustifycenter mr10  ">
                                 <a href={process.env.PUBLIC_URL + "/#"}>
-                                    <img className="headericon" src="images/icon.png" alt="NeuralQA logo" />
+                                    <img className="headericon" src="images/tobi-head.png" alt="Tobi logo" />
 
                                 </a>
                             </div>
